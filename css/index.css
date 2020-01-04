@@ -1,0 +1,62 @@
+.margin{width: 1200px;margin: 0 auto;}
+#top{background: #eee;height: 40px; overflow: hidden;
+ border: 1px solid #ccc;
+}
+#top .tl{float: left;font: 16px/40px ""}
+#top .tl a{}
+#top .tl span{margin: 0 2px}
+#top .tl .about{color: orangered;}
+#top .tr{float: right;font: 16px/40px ""}
+#top .tr .app{margin-right: 30px;}
+header{height: 120px; display: flex;}
+header .logo{margin-top: 20px;}
+header .box{overflow: hidden;margin:40px 0 0 40px;height: 30px;
+border: 3px solid #999;}
+header .box .input{float: left;border: 0;width: 450px;height: 30px;}
+header .box .seach{float: left;width: 50px;height: 30px;background: orangered;border: 0;}
+header .shop a{display: block; width: 150px;height: 30px;margin: 40px 0 0 60px;font: 14px/30px "";border: 1px solid #999;
+
+background: #eee;text-align: center;}
+nav{height: 50px;}
+nav .nav{display: flex;}
+nav .nav li{}
+nav .nav li a.te{background: orangered; color: #fff; }
+nav .nav li a{display: block; font:700 16px/50px "";color: #000;padding: 0 24px;
+}
+nav .nav li a:hover{color: orangered;}
+nav .nav li a.te:hover{color: #fff;}
+nav .nav li ul{position: absolute;
+    background-color: #000;
+    opacity: .8;width: 144px;height: 400px;}
+nav .nav li ul li a{height: 50px;font:700 16px/50px "";color: #fff;padding-left:15px ;display: block;}
+#banner{height: 400px;}
+#banner a{display: block;width: 1200px;height: 400px;}
+#banner a img{width: 1400px;height: 400px;margin: 0 auto;}
+#list{background: #ccc;height: 166px;}
+#list .img{display: flex; justify-content: space-between;
+padding-top: 8px;}
+#list .img li{}
+#list .img li a{display: block;}
+#list .img li a img{width: 297px;}
+#car{background: #ccc;}
+#car .t{height: 60px;background: #fff;display: flex;
+justify-content: space-between;}
+#car .t h3{font: 700 20px/3 ""; padding-left: 30px;}
+#car .t ul{display: flex;font: 12px/5 "";}
+#car .t ul li{margin: 0 10px;}
+#car .t ul li a:hover{color: orangered;}
+#car .c{}
+#car .c .cont{width: 1212px;overflow: hidden;}
+#car .c .cont li{background: #fff;margin-right: 13px;float: left;margin-top: 10px;}
+#car .c .cont li a{display: block;}
+#car .c .cont li a img{width: 290px;height: 290px;}
+#car .c .cont li .name{height: 40px;font: 16px/40px "";margin-left: 20px;
+}
+#car .c .cont li .name a{color: #000;}
+#car .c .cont li .about{height: 20px;margin-left: 20px;}
+#car .c .cont li .price{margin-left: 20px;height: 30px;color: orangered;font: 16px/30px "";}
+#car .c .cont li .price i{}
+#car .c .cont li .price span{}
+#box{background: #ccc;}
+#box a{display: block;}
+#box a img{width: 1200px;height: 150px;margin: 10px 0;}
