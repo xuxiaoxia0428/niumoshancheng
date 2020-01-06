@@ -26,12 +26,12 @@ nav .nav li a{display: block; font:700 16px/50px "";color: #000;padding: 0 24px;
 nav .nav li a:hover{color: orangered;}
 nav .nav li a.te:hover{color: #fff;}
 nav .nav li ul{position: absolute;
-    background-color: #000;
+    background-color: #000;z-index: 6;
     opacity: .8;width: 144px;height: 400px;}
 nav .nav li ul li a{height: 50px;font:700 16px/50px "";color: #fff;padding-left:15px ;display: block;}
 #banner{height: 400px;}
-#banner a{display: block;width: 1200px;height: 400px;}
-#banner a img{width: 1400px;height: 400px;margin: 0 auto;}
+/* #banner a{display: block;width: 1200px;height: 400px;} */
+#banner a img{height: 400px;}
 #list{background: #ccc;height: 166px;}
 #list .img{display: flex; justify-content: space-between;
 padding-top: 8px;}
@@ -49,7 +49,7 @@ justify-content: space-between;}
 #car .c .cont{width: 1212px;overflow: hidden;}
 #car .c .cont li{background: #fff;margin-right: 13px;float: left;margin-top: 10px;}
 #car .c .cont li a{display: block;}
-#car .c .cont li a img{width: 290px;height: 290px;}
+#car .c .cont li img{width: 290px;height: 290px;}
 #car .c .cont li .name{height: 40px;font: 16px/40px "";margin-left: 20px;
 }
 #car .c .cont li .name a{color: #000;}
@@ -60,3 +60,21 @@ justify-content: space-between;}
 #box{background: #ccc;}
 #box a{display: block;}
 #box a img{width: 1200px;height: 150px;margin: 10px 0;}
+#tu{background: #ccc;};
+#tu .box{height: 354px; width: 1212px;}
+#tu .box a{display:inline-block;height: 172px;margin-top: 5px};
+
+#brand{background: #ccc;overflow: hidden;}
+#brand .top{background: #fff;height: 40px;font: 12px/40px "";
+border-bottom: 1px solid #999; margin-top: 20px;text-indent: 1em;}
+#brand .brand{overflow: hidden;width: 1198px;height: 392px;}
+#brand .brand li{}
+#brand .brand li a{display: block;width: 90px;height: 90px;};
+#brand .brand li a img{width: 90px;height: 90px;}
+#map{background: #ccc;overflow: hidden;}
+#map .service{background: #fff;margin-top: 20px;height: 160px;}
+#map .service ul{display: flex;justify-content: space-around;}
+#map .service ul li{}
+#map .service ul li h3{}
+#map .service ul li p{}
+#map .service ul li p a{display: block;}
